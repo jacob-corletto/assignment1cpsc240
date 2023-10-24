@@ -8,8 +8,8 @@ global compute_trip
 segment .data                 
 string_format db "%s", 0
 float_format db "%lf",0
-initial_distance db "Please enter the speed for the initial segment of the trip (mph): ", 0
-initial_speed db "for how many miles?  ",0
+initial_distance db "This program will help yo discover your work",10, 0
+initial_speed db "Please enter the voltage applied to your device: ",0
 second_speed db "What will be your speed during the final segment of the trip (mph)?  ",0
 
 average_speed db "Your average speed will be: ", 10,0
