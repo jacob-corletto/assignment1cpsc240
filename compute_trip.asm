@@ -86,7 +86,7 @@ call printf
 mov rax, 0
 mov rdi, float_format
 mov rsi, second_leg_speed
-call scanf
+call scanf  
 
 ;======================================calculations==========================================
 ;move total_miles to xmm8
